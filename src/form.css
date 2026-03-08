@@ -11,7 +11,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 98vh;
+    height: 90vh;
 }
 
 .form-group  {
@@ -118,16 +118,37 @@ input[type="checkbox"] {
 @media (max-width: 768px) {
     
     .form-group  {
-        padding: 5px 0;
-    }
-
-    .fund {
-        margin: 10px;
+        padding: 5px 10px;
     }
 
     .form-input {
-        font-size: 15px;
-        padding: 15px 24px;
+        font-size: 14px;
+        padding: 15px 15px;
+    }
+}
+
+@media (max-width: 360px) {
+    
+    .form-group  {
+        padding: 5px 0px;
+        margin: 0;
+    }
+
+    .fund {
+        margin: 5px 10px;
+    }
+
+    .form-input {
+        font-size: 12px;
+        padding: 10px 15px;
+    }
+
+    .lembrar-me {
+        font-size: 13px;
+    }
+
+    .senha {
+        font-size: 11px;
     }
 }
 
