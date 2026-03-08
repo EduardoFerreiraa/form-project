@@ -115,6 +115,22 @@ input[type="checkbox"] {
     border-color: rgb(255, 255, 255);
 }
 
+@media (max-width: 768px) {
+    
+    .form-group  {
+        padding: 5px 0;
+    }
+
+    .fund {
+        margin: 10px;
+    }
+
+    .form-input {
+        font-size: 15px;
+        padding: 15px 24px;
+    }
+}
+
 /* TIPOGRAFIA */
 
 h1 {
