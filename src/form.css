@@ -144,18 +144,11 @@ input[type="checkbox"] {
     }
 
     .lembrar-me {
-        padding-left: 5px;
         font-size: 13px;
-        font-family: Arial, Helvetica, sans-serif;
-        color: #a3a3a3;
     }
 
     .senha {
-        margin-top: 15px;
         font-size: 11px;
-        color: #ffffff;
-        text-decoration: none;
-        font-family: Arial, Helvetica, sans-serif;
     }
 }
 
